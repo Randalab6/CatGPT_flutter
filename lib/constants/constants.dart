@@ -33,7 +33,7 @@ final chatMessages = [
   },
   {
     "msg":
-        "Hello, I am ChatGPT, a large language model developed by OpenAI. I am here to assist you with any information or questions you may have. How can I help you today?",
+        "Hello, I am CatGPT, a large language model developed by OpenAI. I am here to assist you with any information or questions you may have. How can I help you today?",
     "chatIndex": 1,
   },
   {
