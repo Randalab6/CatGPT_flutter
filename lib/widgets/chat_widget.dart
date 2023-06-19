@@ -26,12 +26,11 @@ class ChatWidget extends StatelessWidget {
             child: Row(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Image.asset(
-                  chatIndex == 0
-                      ? AssetsManager.userImage
-                      : AssetsManager.botImage,
-                  height: 30,
-                  width: 30,
+                CircleAvatar(
+                  radius: 15,
+                  backgroundImage: AssetImage(
+                    chatIndex == 0 ? AssetsManager.userImage : AssetsManager.botImage,
+                  ),
                 ),
                 const SizedBox(
                   width: 8,
@@ -46,7 +45,7 @@ class ChatWidget extends StatelessWidget {
                               style: const TextStyle(
                                   color: Colors.white,
                                   fontWeight: FontWeight.w700,
-                                  fontSize: 16),
+                                  fontSize: 15),
                               child: AnimatedTextKit(
                                   isRepeatingAnimation: false,
                                   repeatForever: false,
@@ -63,7 +62,8 @@ class ChatWidget extends StatelessWidget {
                               style: const TextStyle(
                                   color: Colors.white,
                                   fontWeight: FontWeight.w700,
-                                  fontSize: 16),
+                                  fontSize: 15,
+                                  ),
                             ),
                 ),
                 chatIndex == 0

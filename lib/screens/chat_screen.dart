@@ -50,10 +50,18 @@ class _ChatScreenState extends State<ChatScreen> {
       appBar: AppBar(
         elevation: 2,
         leading: Padding(
-          padding: const EdgeInsets.all(8.0),
-          child: Image.asset(AssetsManager.openaiLogo),
+        padding: const EdgeInsets.all(8.0),
+        child: CircleAvatar(
+          radius: 25, // Adjust the radius to your desired size
+          backgroundImage: AssetImage(AssetsManager.openaiLogo),
+          ),
         ),
-        title: const Text("ChatGPT"),
+        title: const Text("CatGPT",
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: 18, 
+          ),
+        ),
         actions: [
           IconButton(
             onPressed: () async {
@@ -107,7 +115,7 @@ class _ChatScreenState extends State<ChatScreen> {
                               chatProvider: chatProvider);
                         },
                         decoration: const InputDecoration.collapsed(
-                            hintText: "How can I help you",
+                            hintText: "Ask CatGPT a question",
                             hintStyle: TextStyle(color: Colors.grey)),
                       ),
                     ),
