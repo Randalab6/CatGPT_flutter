@@ -1,5 +1,7 @@
 
-![ic_launcher](https://github.com/Randalab6/ChatGPT_flutter/assets/31637771/2ba69a67-e0b8-4271-9639-311fccf78579)
+<p align="center">
+  <img src="https://github.com/Randalab6/ChatGPT_flutter/assets/31637771/6e637ae8-db8e-4eaf-b2e6-76e6b69d780b" alt="Cat Logo" />
+</p>
 
 # CatGPT Flutter Project
 
@@ -30,15 +32,20 @@ To run the CatGPT Flutter Project, follow these steps:
 
 ## Usage
 
-1. Launch the CatGPT Flutter application on your device/emulator.
-2. Chose the model
-3. Enter your messages in the chat input area.
-4. The chatbot will process your input and provide cat-themed responses in real-time.
-5. Continue the conversation by sending additional messages.
+<h4>1. Launch the CatGPT Flutter application on your device/emulator. </h4>
+<p align="center">
+  <img width="320px" src="https://github.com/Randalab6/ChatGPT_flutter/assets/31637771/907e3668-0580-4b0e-8dfa-fc647cc68bb7" alt="App Icon" />
+</p>
 
-![Screenshot_20230620_123940](https://github.com/Randalab6/ChatGPT_flutter/assets/31637771/68c71083-a346-4468-8aa7-55276627b3ac)
+<h4>2. Chose the model </h4>
+<p align="center">
+  <img width="320px" src="https://github.com/Randalab6/ChatGPT_flutter/assets/31637771/68c71083-a346-4468-8aa7-55276627b3ac" alt="Cat Logo" />
+</p>
 
-![screenshot_questions+keyboard](https://github.com/Randalab6/ChatGPT_flutter/assets/31637771/98b431a8-aff1-4835-9ec6-831776b0f6d5)
+<h4> 3. Enter your messages in the chat input area. The chatbot will process your input and provide responses in real-time. </h4>
+<p align="center">
+  <img width="320px" src="https://github.com/Randalab6/ChatGPT_flutter/assets/31637771/98b431a8-aff1-4835-9ec6-831776b0f6d5" alt="Cat Logo" />
+</p>
 
 ## Contributing
 
