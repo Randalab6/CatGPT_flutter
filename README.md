@@ -5,7 +5,7 @@ The CatGPT Flutter Project is a mobile application that utilizes OpenAI's CatGPT
 
 ## Overview
 
-The CatGPT Flutter Project aims to create a mobile chatbot application powered by the cutting-edge CatGPT model developed by OpenAI. The application allows users to engage in delightful and cat-themed conversations with an intelligent chatbot.
+The CatGPT Flutter Project aims to create a mobile chatbot application powered by ChatGPT models developed by OpenAI. The application allows users to engage in delightful and cat-themed conversations with an intelligent chatbot.
 
 ## Features
 
