@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.chatgpt_course">
+    package="com.example.CatGPT">
    <application
-        android:label="chatgpt_course"
+        android:label="CatGPT"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
